@@ -1,10 +1,6 @@
-public class Lion implements Animal{
+interface Animal {
 
-    public void walk(){
-        System.out.println("Lion is walking");
-    }
-    public void run(){
-        System.out.println("Lion is running");
-    }
+    public void walk();
+    public void run();
     
 }
